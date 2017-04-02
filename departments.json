@@ -1,0 +1,18 @@
+	[
+		{
+			"field":[
+		  		"Chemical Engineering",
+				"Civil Engineering",
+				"Computer Engineering",
+				"Electrical Engineering",
+				"Electronics & Communication",
+				"Information Technology",
+				"Mechanical Engineering",
+				"Mechatronics Engineering"
+				],
+			"title": [
+				"list.php?division=3&deptcode="
+				]
+			}
+		}
+
