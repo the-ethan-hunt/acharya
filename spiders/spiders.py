@@ -12,7 +12,6 @@ def parse(self, response):
 	sel = Selector(response)
 	titles = sel.xpath('//*[@id="contents"]/fieldset')
         items = []
-        item = ReverseItem()
         item["link"] = response.url
         item["field"] = titles[2].xpath('.//ul/li/text()').extract()
 	header_txt = titles[0].xpath("string((.//table/tr/td[2]))")[0].extract()
