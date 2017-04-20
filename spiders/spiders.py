@@ -3,7 +3,7 @@ from scrapy.selector import Selector
 from scrapy.http import Request
 import pickle
 import re
-name = "reverse"
+
 allowed_domains = ["www.gcet.ac.in"]
 proflinks = open("proflinks.pkl", 'rb')
 start_urls = pickle.dump(proflinks)
